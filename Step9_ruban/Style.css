@@ -108,3 +108,23 @@ body {
   background-color: #f4f4f4;
   color: #333;
 }
+
+.ruban {
+  width: 100%;
+  height: 350px;
+  background-image: url("../img/carbon2.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+.ruban .content {
+  width: 55%;
+  color: white;
+  padding: 80px 0 0 30px;
+}
+.ruban p { margin: 10px 0 20px; }
+.dark .btn { /* overrides the step 5 light button */
+  background-color: #03254c;
+  color: white;
+}
